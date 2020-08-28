@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição switch01</title>
+</head>
+<body>
+    <style>
+    	body {
+    		background-color: #dedede;
+    	}
+    	h2 {
+    		text-align: center;
+    	}
+		div#centro { 
+			background-color: white;
+			height: 500px;
+			width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			font-family: Arial;
+			font-size:14pt;
+			border-radius: 20px;
+		
+		}
+		
+	</style>
+
+    <div id="centro">
+		<form method="get"  action="switch03.php">
+			Selecione Seu Estado: <select name="estado">
+				<optgroup label="Região Norte">
+					<option value="1">Amazonas (AM) </option>
+					<option value="1">Roraima (RR) </option>
+					<option value="1">Amapá (AP) </option>
+					<option value="1">Pará (PA) </option>
+					<option value="1">Tocantins (TO) </option>
+					<option value="1">Rondônia (RO) </option>
+					<option value="1">Acre (AC) </option>
+				</optgroup>
+				<optgroup label="Região Nordeste ">
+					<option value="2">Maranhão (MA)</option>
+					<option value="2">Piauí (PI)</option> 
+					<option value="2">Ceará (CE)</option>
+					<option value="2">Rio Grande do Norte (RN)</option> value="2" 
+					<option value="2">Pernambuco (PE)</option> 
+					<option value="2">Paraíba (PB)</option> 
+					<option value="2">Sergipe (SE)</option> 
+					<option value="2">Alagoas (AL)</option> 
+					<option value="2">Bahia (BA)</option> 
+				</optgroup>
+				<optgroup label="Região Centro-Oeste">
+						<option value="3">Mato Grosso (MT)</option> 
+						<option value="3">Mato Grosso do Sul (MS)</option>
+						<option value="3">Goiás (GO)</option> 
+				</optgroup>
+				<optgroup label="Região Sudeste">
+						<option value="4">São Paulo (SP)</option> 
+						<option value="4">Rio de Janeiro (RJ)</option> 
+						<option value="4">Espírito Santo (ES)</option> 
+						<option value="4">Minas Gerais (MG)</option> 
+				</optgroup>
+				<optgroup label="Região Sul ">
+						<option value="5">Paraná (PR) </option>
+						<option value="5">Rio Grande do Sul (RS)</option> 
+						<option value="5">Santa Catarina (SC) </option>
+				</optgroup>
+			
+			</select>
+			<input type="submit" value="Enviar"/>
+		</form>
+	</div>
+	
+
+
+</body>
+</html>
