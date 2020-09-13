@@ -2,7 +2,7 @@
     $i = 1;
     while ($i <=5){
         $v = "num".$i;
-        $ur = "v".$i;
+        $ur = "a".$i;
         $$v = isset($_GET[$ur])?$_get[$ur]:0;
         $i++;
     }

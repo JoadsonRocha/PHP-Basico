@@ -29,7 +29,7 @@
 		<?php
 			$c = 1;
 			while ($c <= 5) {
-		echo "Valor $c: <input type='number' name='v' max='100' min='0' value=''/><br/>";
+		echo "Valor $c: <input type='number' name='a' max='100' min='0' value='0'/><br/><br/>";
 				$c ++;
 			}
 		?>
